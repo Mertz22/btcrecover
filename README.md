@@ -7,6 +7,17 @@ For seed based recovery, this is primarily useful in situations where you have l
 
 For wallet password or passphrase recovery, it is primarily useful if you have a reasonable idea about what your password might be.
 
+### there is a test wallet.dat and tokenlist dictionary english.txt is included in repository for testing purpose
+### Windows Installation & use(OpenCL GPU(Intel/Nvidia/AMD GPUs)
+### requirements:any python version,pycryto,wheel,pyopencl wheel package,mako,wallet.dat
+### we will be using python 2.7
+### C:\Python27\btcrecover-master>pip install pycrypto mako wheel
+### use one of the wheel from this repository(according to the windows version 32/64 Bit)if your python version is other than 2.7 use https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyopencl for appropriate wheel package
+### C:\Python27\btcrecover-master>pip install pyopencl-2018.1.1+cl12-cp27-cp27m-win_amd64.whl
+### put the wallet.dat in same folder
+### C:\Python27\btcrecover-master>python btcrecover.py --wallet wallet.dat --no-dupchecks --no-eta --enable-gpu --global-ws 4096 --local-ws 512 --autosave session.txt --tokenlist english.txt
+
+
 # Documentation:
 ### Instructions for installation, usage & examples:  [https://btcrecover.readthedocs.io/](https://btcrecover.readthedocs.io/)
 
