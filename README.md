@@ -7,7 +7,7 @@ For seed based recovery, this is primarily useful in situations where you have l
 
 For wallet password or passphrase recovery, it is primarily useful if you have a reasonable idea about what your password might be.
 
-### there is a test wallet.dat and tokenlist dictionary english.txt is included in repository for testing purpose
+there is a test wallet.dat and tokenlist dictionary english.txt is included in repository for testing purpose
 ### Windows Installation & use(OpenCL GPU(Intel/Nvidia/AMD GPUs)
 ### requirements:any python version,pycryto,wheel,pyopencl wheel package,mako,wallet.dat
 ### we will be using python 2.7
